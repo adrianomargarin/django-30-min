@@ -1,0 +1,8 @@
+Django
+dj-database-url
+dj-static
+python-decouple
+static3
+gunicorn
+psycopg2
+pytz
