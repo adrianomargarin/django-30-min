@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django_30_min.core.topdf import Pdf
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('pdf/', Pdf.as_view()),
 ]
